@@ -5,46 +5,5 @@
 		"description": "Comprehensive collection for OPNsense API including core functionality and plugins",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
-	"item": [
-		{
-			"name": "POST /haproxy/service/reconfigure",
-			"id": "48856812-dc36ba65-28d5-46dc-80f6-e8933e8c5686",
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/json"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{opnsense_base_url}}/api/haproxy/service/reconfigure",
-					"host": [
-						"{{opnsense_base_url}}"
-					],
-					"path": [
-						"api",
-						"haproxy",
-						"service",
-						"reconfigure"
-					]
-				},
-				"description": "Module: haproxy, Controller: service, Command: reconfigure"
-			},
-			"response": []
-		}
-	]
+	"item": []
 }
